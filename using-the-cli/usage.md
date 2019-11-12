@@ -71,7 +71,7 @@ Here are some examples of server formats:
 
 ### Embedded Commandbox Server
 
-If you run CFConfig from the web root of a Commandbox embedded server, you do not need to specicy the `from` or `to` parameters to reference it, and CFConfig will automatically default to the `luceeServer` format, which operates on the server context. If you wish to interact with the web context \(which has little distinction in a CommandBox server since there's only one web context per server\) you will need to provide the explicit `luceeWeb` format by using either the `toFormat` or `fromFormat` parameters.
+If you run CFConfig from the web root of a Commandbox embedded server, you do not need to specify the `from` or `to` parameters to reference it, and CFConfig will automatically default to the `luceeServer` format, which operates on the server context. If you wish to interact with the web context \(which has little distinction in a CommandBox server since there's only one web context per server\) you will need to provide the explicit `luceeWeb` format by using either the `toFormat` or `fromFormat` parameters.
 
 ```text
 cfconfig show fromFormat=luceeWeb
